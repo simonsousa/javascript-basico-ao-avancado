@@ -43,3 +43,13 @@ console.log(objetoCasa[umIdentificadorDaCasa]);
     Na linha 14 utilizamos a notação de ponto para mutar o valor da propriedade numeroPortas do objeto objetoCarro. Na linha 15 declaramos uma variável com um valor de texto que é exatamente o nome da chave valorImovel e na linha 20 utilizamos esta variável para retornar o valor da propriedade valorImovel do objeto objetoCasa utilizando notação de colchetes. Nas linhas de 17 a 20 utilizamos a mesma sintaxe que utilizamos para mutar a propriedade de um objeto, agora para exibir o valor destas propriedades no console do navegador.
 
 */
+
+let objetoTeste = new Object();
+
+objetoTeste.valor = 2500;
+
+console.log(objetoTeste);
+
+let identificadorTeste = 'valor'
+
+console.log(objetoTeste[identificadorTeste])
