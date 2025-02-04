@@ -15,10 +15,10 @@ let texto = document.createTextNode("Este é o conteúdo do parágrafo")//Estou 
 novoParagrafo.appendChild(texto); // estou inserindo o texto criando dentro da variável novoParagrafo
 console.log(novoParagrafo);
 
-var body = document.querySelector('body');// body: parent
+var body = document.querySelector('body');//seleciona a tag body, que é um parent
 console.log(body);
 
-body.appendChild(novoParagrafo);
+body.appendChild(novoParagrafo);//estou adicionando ao parent body, uma child(filho): novoParagrafo
 
 let container = document.getElementById('container');
 
