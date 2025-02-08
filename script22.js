@@ -58,9 +58,8 @@ console.log(`Velocidade ${carro.velocidade}`);
     velocidade: 0
 
     Experimente alterar os valores do exemplo, criar novos logs no exemplo e ver quais serão os resultados obtidos.
-
     
     
     THIS:
-    Antes de irmos para o próximo tópico vamos ver uma questão de extrema importancia quando trabalhamos com objetos e que precisamos ver para termos um total entendimento do exemplo em questão. No exemplo, mais especificadamente nas linhas 6, 9 e 12, utilizamos a declaração this com a notação de ponto para poder modificar o valor das propriedads do objeto carro, isto foi possível, pois this é uma palavra reservada que se refere ao objeto atual em questão.
+    Antes de irmos para o próximo tópico vamos ver uma questão de extrema importancia quando trabalhamos com objetos e que precisamos ver para termos um total entendimento do exemplo em questão. No exemplo, mais especificadamente nas linhas 6, 9 e 12, utilizamos a declaração this com a notação de ponto para poder modificar o valor das propriedads do objeto carro, isto foi possível, pois this é uma palavra reservada que se refere ao objeto atual em questão. Então para podermos acessar o valor da propriedade de um objeto, devemos utilizar a declaração this, seja para alterar o valor de uma propriedade ou para retornar o valor da mesma, veremos mais sobre this no decorrer do livro.
 */ 
