@@ -4,6 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>praticando Árvore Dom</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        div {
+            background-color: lightgray;
+            width: 100px;
+            margin: 15px 10px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+
+        div:hover {
+            background-color: rgb(13, 141, 184);
+            color: white;
+        }
+
+        .destaque {
+            background-color: red;
+            color: white;
+            border: 2px solid black;
+        }
+
+    </style>
 </head>
 <body>
     <h1 id="title">Título principal</h1>
@@ -11,23 +38,12 @@
     <h2 class="subtitle">Este é o segundo título</h2>
 
     <p id="paragrafo">Este é o parágrafo! <span>teste</span></p>
-    
-    <ul id="lista">
-        <li class="item">item 1</li>
-        <li class="item">item 2</li>
-        <li class="item">item 3</li>
-        <li class="item">item 4</li>
-    </ul>
-    
-    <ul id="lista2">
-        <li class="item">Item 5</li>
-        <li class="item">Item 6</li>
-        <li class="item">Item 7</li>
-        <li class="item">Item 8</li>
-    </ul>
 
-    <div id="container"></div>
+    <div id="c1" class="curso c1">Java</div>
+    <div id="c2" class="curso c2">JavaScript</div>
+    <div id="c3" class="curso c3">Python</div>
+    <div id="c4" class="curso c4">Kotlin</div>
 
-    <script src="createElement().js"></script>
+    <script src="addEventListener().js"></script>
 </body>
 </html>
