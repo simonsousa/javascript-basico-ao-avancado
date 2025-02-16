@@ -25,4 +25,4 @@ console.log(title);
 //selecionar o pai do elem
 let pai = title.parentNode; // ou let body = document.querySelector("body");
 
-pai.replaceChild(elem,title);
+pai.replaceChild(elem,title); //primeiro: elemento atual; segundo: elemento que eu quero por no lugar do primeiro
